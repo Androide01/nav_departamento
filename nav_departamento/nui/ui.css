@@ -1,0 +1,47 @@
+div { border: 0; outline: 0; vertical-align: baseline; background: transparent; margin: 0; padding: 0; }
+:focus { outline: 0; }
+::selection { background: transparent; }
+
+#actionmenu {
+	top: 50%;
+	left: 55%;
+	display: none;
+	position: fixed;
+	transform: translate(-50%,-50%);
+}
+
+#actionmenu button {
+	background: rgba(20,20,20,0.95);
+	width: 250px;
+	height: 45px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 700;
+	font-family: 'Do Hyeon', sans-serif;
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 3px;
+	letter-spacing: 0.5px;
+	text-shadow: 1px 1px #000;
+	padding: 0 20px;
+-moz-border-radius: 74px 74px 74px 74px;
+-webkit-border-radius: 74px 74px 74px 74px;
+border: 4px solid #de0000;
+}
+
+#actionmenu button:hover {
+	background: #b41111;
+}
+
+l {
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+r {
+	color: rgba(255,255,255,0.5);
+	width: 25%;
+	text-align: center;
+	float: center;
+}
